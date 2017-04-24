@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.justcompress.Save_video"
+    android:background="#538dd8">
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Zip video compress...."
+        android:id="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:background="#cde4f4" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="1024 x 576  (576p)"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:background="#a4cbe7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="848 x 480  (480p)"
+        android:id="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button4"
+        android:background="#8ac5df" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="640 x 360  (360p)"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5"
+        android:background="#5fb1c8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="424 x 240  (240p)"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button6"
+        android:layout_alignEnd="@+id/button6"
+        android:background="#67a5bb" />
+
+</RelativeLayout>

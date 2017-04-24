@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.justcompress.About"
+    android:background="@drawable/bk_3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="279dp"
+        android:textSize="30dp"
+        android:textColor="#7bbce4"
+        android:layout_gravity="center_horizontal|top"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginTop="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="                    Created By:-   "
+        android:id="@+id/textView16"
+        android:layout_gravity="center"
+        android:textColor="#57d0e6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:layout_marginRight="100dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lakshay Golani"
+        android:id="@+id/textView17"
+        android:layout_gravity="right|bottom"
+        android:textColor="#50dae1"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Love Basant Kuntal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="100dp"
+        android:id="@+id/textView18"
+        android:layout_gravity="right|bottom"
+        android:textColor="#4cd3e2"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vibhanshu Singh"
+        android:id="@+id/textView19"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="100dp"
+        android:layout_gravity="right|bottom"
+        android:textColor="#4dbccb"
+        android:textStyle="bold|italic" />
+
+</FrameLayout>

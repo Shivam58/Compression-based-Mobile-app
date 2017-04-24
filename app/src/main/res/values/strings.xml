@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">let\'s squeeze it up</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main21">Main2Activity1</string>
+    <string name="title_activity_image_activity">Image_activity</string>
+    <string name="title_activity_video_activity">Video_activity</string>
+    <string name="title_activity_music_activity">Music_activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_zip">Zip</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/compress"
+            android:icon="@drawable/compress"
+            android:title="Compress" />
+
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/rate_me"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate me" />
+        </menu>
+    </item>
+
+</menu>
